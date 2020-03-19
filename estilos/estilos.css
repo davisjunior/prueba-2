@@ -17,7 +17,7 @@ body .contenedor-todo header section .cabecera-navegacion {
 body .contenedor-todo header section .cabecera-navegacion p {
   color: gray;
   font-size: 17px;
-  font-family: "poppins";
+  font-family: "Poppins", sans-serif;
   padding-top: 8px;
   padding-left: 88px;
 }
@@ -194,6 +194,337 @@ body .contenedor-todo header section .bajo-cabecera .iconos .carrito span {
   color: #99A3A4;
   font-family: "Poppins", sans-serif;
   font-size: 13px;
+}
+body .contenedor-todo header section .menus-desplegables {
+  width: 85%;
+  height: 56px;
+  background: white;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+body .contenedor-todo header section .menus-desplegables .browse {
+  width: 274px;
+  height: 56px;
+  background: white;
+  padding-top: 19px;
+  position: relative;
+}
+body .contenedor-todo header section .menus-desplegables .browse:hover {
+  background: #a6c76c;
+  transition: 0.3s ease;
+}
+body .contenedor-todo header section .menus-desplegables .browse:hover .sub-menu {
+  display: block;
+}
+body .contenedor-todo header section .menus-desplegables .browse a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  padding: 19px 47.5px;
+}
+body .contenedor-todo header section .menus-desplegables .browse a:hover {
+  color: white;
+  transition: 0.2s ease;
+}
+body .contenedor-todo header section .menus-desplegables .browse a i {
+  margin-right: 22px;
+  margin-left: 11px;
+  align-items: center;
+}
+body .contenedor-todo header section .menus-desplegables .browse .sub-menu {
+  padding: 5px 36px 6px 16px;
+  position: absolute;
+  top: 56px;
+  background: #E5E8E8;
+  width: 100%;
+  height: auto;
+  display: none;
+  box-shadow: 0 0 10px gray;
+}
+body .contenedor-todo header section .menus-desplegables .browse .sub-menu li {
+  list-style: none;
+  padding: 12px 0px 13px 0px;
+  border-bottom: 1px solid gray;
+  margin-right: -34px;
+  margin-left: -16px;
+  background: #E5E8E8;
+}
+body .contenedor-todo header section .menus-desplegables .browse .sub-menu li a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+body .contenedor-todo header section .menus-desplegables .browse .sub-menu li a:hover {
+  color: #a6c76c;
+  transition: 0.3s ease;
+}
+body .contenedor-todo header section .menus-desplegables .home {
+  width: 90px;
+  height: 56px;
+  background: white;
+  position: relative;
+  padding-top: 18px;
+}
+body .contenedor-todo header section .menus-desplegables .home:hover .sub-menu1 {
+  display: block;
+  transition: 1s ease;
+}
+body .contenedor-todo header section .menus-desplegables .home a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+body .contenedor-todo header section .menus-desplegables .home a:hover {
+  color: #a6c76c;
+  transition: 0.2s ease;
+}
+body .contenedor-todo header section .menus-desplegables .home a i {
+  font-weight: 900;
+  margin-left: 7px;
+  align-items: center;
+}
+body .contenedor-todo header section .menus-desplegables .home .sub-menu1 {
+  position: absolute;
+  top: 56px;
+  width: 200%;
+  height: auto;
+  background: white;
+  box-shadow: 0 5px 10px black;
+  display: none;
+}
+body .contenedor-todo header section .menus-desplegables .home .sub-menu1 li {
+  list-style: none;
+  padding: 10px;
+  font-size: 14px;
+}
+body .contenedor-todo header section .menus-desplegables .home .sub-menu1 li a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: gray;
+}
+body .contenedor-todo header section .menus-desplegables .home .sub-menu1 li a:hover {
+  color: #a6c76c;
+  transition: 0.2s ease;
+}
+body .contenedor-todo header section .menus-desplegables .tienda {
+  width: 100px;
+  height: 52px;
+  background: white;
+  padding-top: 17px;
+  position: relative;
+}
+body .contenedor-todo header section .menus-desplegables .tienda:hover .contenedor {
+  display: flex;
+}
+body .contenedor-todo header section .menus-desplegables .tienda a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+body .contenedor-todo header section .menus-desplegables .tienda a:hover {
+  color: #a6c76c;
+  transition: 0.4s ease;
+}
+body .contenedor-todo header section .menus-desplegables .tienda a i {
+  margin-right: 22px;
+  margin-left: 11px;
+  align-items: center;
+}
+body .contenedor-todo header section .menus-desplegables .tienda .contenedor {
+  display: flex;
+  width: 600%;
+  top: 55px;
+  box-shadow: 0 6px 8px;
+  position: absolute;
+  display: none;
+}
+body .contenedor-todo header section .menus-desplegables .tienda .contenedor .sub-menu2 {
+  background: white;
+  width: 106%;
+  height: auto;
+  padding-top: 10px;
+}
+body .contenedor-todo header section .menus-desplegables .tienda .contenedor .sub-menu2 li {
+  list-style: none;
+  padding: 8px;
+  font-size: 13px;
+  display: block;
+}
+body .contenedor-todo header section .menus-desplegables .tienda .contenedor .sub-menu2 li a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: gray;
+}
+body .contenedor-todo header section .menus-desplegables .tienda .contenedor .sub-menu2 li a:hover {
+  color: #a6c76c;
+  transition: 0.4s ease;
+}
+body .contenedor-todo header section .menus-desplegables .tienda .contenedor .lado {
+  background: white;
+  width: 180%;
+  padding-top: 15px;
+}
+body .contenedor-todo header section .menus-desplegables .tienda .contenedor .lado h4 {
+  font-size: 21px;
+  color: black;
+}
+body .contenedor-todo header section .menus-desplegables .tienda .contenedor .lado li {
+  padding: 10px;
+  list-style: none;
+}
+body .contenedor-todo header section .menus-desplegables .tienda .contenedor .lado li a {
+  color: gray;
+  font-size: 14px;
+}
+body .contenedor-todo header section .menus-desplegables .tienda .contenedor .lado li a:hover {
+  color: #a6c76c;
+  transition: 0.4s ease;
+}
+body .contenedor-todo header section .menus-desplegables .productos {
+  width: 95px;
+  height: 56px;
+  background: tomato;
+}
+body .contenedor-todo header section .menus-desplegables .productos a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+body .contenedor-todo header section .menus-desplegables .productos a i {
+  margin-right: 22px;
+  margin-left: 11px;
+  align-items: center;
+}
+body .contenedor-todo header section .menus-desplegables .productos ul li {
+  list-style: none;
+}
+body .contenedor-todo header section .menus-desplegables .productos ul li a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+body .contenedor-todo header section .menus-desplegables .paginas {
+  width: 90px;
+  height: 56px;
+  background: white;
+  padding-top: 16px;
+}
+body .contenedor-todo header section .menus-desplegables .paginas:hover .sub-menu4 {
+  display: block;
+}
+body .contenedor-todo header section .menus-desplegables .paginas a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+body .contenedor-todo header section .menus-desplegables .paginas a:hover {
+  color: #a6c76c;
+  transition: 0.4s ease;
+}
+body .contenedor-todo header section .menus-desplegables .paginas a i {
+  margin-right: 22px;
+  margin-left: 11px;
+  align-items: center;
+}
+body .contenedor-todo header section .menus-desplegables .paginas .sub-menu4 {
+  background: white;
+  padding-top: 15px;
+  position: absolute;
+  top: 175px;
+  width: 10%;
+  display: none;
+  box-shadow: 0 5px 10px;
+}
+body .contenedor-todo header section .menus-desplegables .paginas .sub-menu4 li {
+  list-style: none;
+  padding: 7px;
+}
+body .contenedor-todo header section .menus-desplegables .paginas .sub-menu4 li a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: gray;
+  font-size: 14px;
+}
+body .contenedor-todo header section .menus-desplegables .paginas .sub-menu4 li a:hover {
+  color: #a6c76c;
+  transition: 0.4s ease;
+}
+body .contenedor-todo header section .menus-desplegables .elementos {
+  width: 110px;
+  height: 56px;
+  background: white;
+  padding-top: 17px;
+}
+body .contenedor-todo header section .menus-desplegables .elementos:hover .contenedor1 {
+  display: flex;
+}
+body .contenedor-todo header section .menus-desplegables .elementos a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+body .contenedor-todo header section .menus-desplegables .elementos a:hover {
+  color: #a6c76c;
+  transition: 0.4s ease;
+}
+body .contenedor-todo header section .menus-desplegables .elementos a i {
+  margin-right: 22px;
+  margin-left: 11px;
+  align-items: center;
+}
+body .contenedor-todo header section .menus-desplegables .elementos .contenedor1 {
+  display: flex;
+  width: 26%;
+  top: 175px;
+  box-shadow: 0 6px 8px;
+  position: absolute;
+  display: none;
+  background: white;
+}
+body .contenedor-todo header section .menus-desplegables .elementos .contenedor1 .sub-menu5 {
+  padding-right: 100px;
+  padding-left: 30px;
+}
+body .contenedor-todo header section .menus-desplegables .elementos .contenedor1 .sub-menu5 h4 {
+  font-size: 20px;
+}
+body .contenedor-todo header section .menus-desplegables .elementos .contenedor1 .sub-menu5 li {
+  list-style: none;
+  padding: 6px;
+}
+body .contenedor-todo header section .menus-desplegables .elementos .contenedor1 .sub-menu5 li a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: gray;
+}
+body .contenedor-todo header section .menus-desplegables .elementos .contenedor1 .sub-menu5 li a:hover {
+  color: #a6c76c;
+  transition: 0.4s ease;
+}
+body .contenedor-todo header section .menus-desplegables .elementos .contenedor1 .sub-menu6 h4 {
+  font-size: 20px;
+}
+body .contenedor-todo header section .menus-desplegables .elementos .contenedor1 .sub-menu6 li {
+  list-style: none;
+  padding: 6px;
+}
+body .contenedor-todo header section .menus-desplegables .elementos .contenedor1 .sub-menu6 li a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: gray;
+}
+body .contenedor-todo header section .menus-desplegables .elementos .contenedor1 .sub-menu6 li a:hover {
+  color: #a6c76c;
+  transition: 0.4s ease;
+}
+body .contenedor-todo header section .menus-desplegables .texto-final {
+  padding-top: 17px;
+  padding-right: 9px;
+}
+body .contenedor-todo .caja {
+  width: 100%;
+  height: 430px;
+  background: #f8f8f8;
 }
 
 /*# sourceMappingURL=estilos.css.map */

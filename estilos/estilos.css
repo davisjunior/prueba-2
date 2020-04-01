@@ -199,6 +199,30 @@ body .contenedor-todo header section .bajo-cabecera .iconos .carrito span {
   font-family: "Poppins", sans-serif;
   font-size: 13px;
 }
+body .contenedor-todo header section .bajo-cabecera-1 {
+  display: none;
+}
+body .contenedor-todo header section .texto-arriba-imagen-iphone {
+  display: none;
+}
+body .contenedor-todo header section .texto-arriba-imagen-iphone {
+  display: none;
+}
+body .contenedor-todo header section .caja-img-iphone {
+  display: none;
+}
+body .contenedor-todo header section .espacio-bajo-img-iphone {
+  display: none;
+}
+body .contenedor-todo header section .informacion {
+  display: none;
+}
+body .contenedor-todo header section .descripcion {
+  display: none;
+}
+body .contenedor-todo header section .contenedor-opcion {
+  display: none;
+}
 body .contenedor-todo header section .menus-desplegables {
   width: 85%;
   height: 56px;
@@ -791,6 +815,2081 @@ body .contenedor-todo .container .container-2 .enlace a i {
   margin-right: 10px;
   text-align: center;
   color: #a6c76c;
+}
+body .contenedor-todo .sobre-caja {
+  width: 84%;
+  height: 33px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 6px;
+}
+body .contenedor-todo .sobre-caja div {
+  margin-left: 50px;
+  margin-right: 40px;
+}
+body .contenedor-todo .sobre-caja div:hover {
+  border-bottom: 2px solid #a6c76c;
+  transition: 0.7s ease;
+}
+body .contenedor-todo .sobre-caja div a {
+  text-decoration: none;
+  color: #464646;
+  font-size: 18px;
+  font-family: "poppins";
+}
+body .contenedor-todo .sobre-caja div a:hover {
+  color: #a6c76c;
+  transition: 1s ease;
+}
+body .contenedor-todo .caja-texto-img {
+  width: 84%;
+  height: 880px;
+  border: 1px solid #bbb9b9;
+  margin: auto;
+  display: flex;
+  padding: 33px;
+}
+body .contenedor-todo .caja-texto-img .contenedor-fila .texto {
+  width: 589px;
+  height: 236px;
+  margin-right: 26px;
+  line-height: 1.6;
+  color: gray;
+  margin-bottom: 38px;
+}
+body .contenedor-todo .caja-texto-img .contenedor-fila .texto p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  padding-bottom: 11px;
+  color: #3a3a3a;
+}
+body .contenedor-todo .caja-texto-img .contenedor-fila .texto span {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+body .contenedor-todo .caja-texto-img .contenedor-fila .texto ul {
+  margin-left: 15px;
+  line-height: 1.9;
+  margin-top: 6px;
+}
+body .contenedor-todo .caja-texto-img .contenedor-fila .texto ul li {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #3d3d3d;
+}
+body .contenedor-todo .caja-texto-img .contenedor-fila .img-text {
+  width: 532px;
+  height: 531px;
+}
+body .contenedor-todo .caja-texto-img .contenedor-fila .img-text img {
+  width: 532px;
+  height: 531px;
+}
+body .contenedor-todo .caja-texto-img .contenedor-fila-1 .imagen img {
+  width: 439px;
+  height: 440px;
+}
+body .contenedor-todo .caja-texto-img .contenedor-fila-1 .texto-1 {
+  width: 454px;
+  height: 190px;
+  line-height: 1.6;
+  color: gray;
+  font-size: 16px;
+  margin-top: 40px;
+}
+body .contenedor-todo .caja-texto-img .contenedor-fila-1 .texto-1 p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #3a3a3a;
+  padding-bottom: 11px;
+}
+body .contenedor-todo .contenedor-footer-iphone {
+  display: none;
+}
+body .contenedor-todo .comun {
+  margin-top: 122px;
+  padding-top: 40px;
+  border-top: 1px solid #e3dddd;
+}
+body .contenedor-todo .comun .contenedor-footer {
+  width: 1349px;
+  height: 261px;
+  background: #FBFCFC;
+  font-family: "poppins";
+  display: flex;
+  border-bottom: 1px solid #c2c2c2;
+}
+body .contenedor-todo .comun .contenedor-footer .part1 {
+  height: 260px;
+  width: 591px;
+  background: #FBFCFC;
+  padding-left: 30px;
+  margin-left: 50px;
+  color: gray;
+  font-family: "poppins";
+}
+body .contenedor-todo .comun .contenedor-footer .part1 p {
+  font-size: 14px;
+  padding-bottom: 19px;
+  padding-top: 6px;
+}
+body .contenedor-todo .comun .contenedor-footer .part1 h5 {
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 10px;
+}
+body .contenedor-todo .comun .contenedor-footer .part1 h5 strong {
+  color: #82E0AA;
+  font-size: 22px;
+  font-family: "poppins";
+}
+body .contenedor-todo .comun .contenedor-footer .part1 .metodo-de-pago {
+  padding-left: 200px;
+  margin-top: -44px;
+}
+body .contenedor-todo .comun .contenedor-footer .part2 {
+  width: 175px;
+  height: 260px;
+  background: #FBFCFC;
+  margin-left: 15px;
+  color: black;
+}
+body .contenedor-todo .comun .contenedor-footer .part2 h1 {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+body .contenedor-todo .comun .contenedor-footer .part2 ul {
+  font-size: 15px;
+  list-style: none;
+}
+body .contenedor-todo .comun .contenedor-footer .part2 ul li {
+  padding-bottom: 9px;
+}
+body .contenedor-todo .comun .contenedor-footer .part2 ul li a {
+  text-decoration: none;
+  color: gray;
+  font-size: 16px;
+  font-family: "poppins";
+}
+body .contenedor-todo .comun .contenedor-footer .part2 ul li a:hover {
+  color: #82E0AA;
+  transition: 1s ease;
+}
+body .contenedor-todo .comun .contenedor-footer .part3 {
+  width: 187px;
+  height: 260px;
+  background: #FBFCFC;
+  margin-left: 15px;
+  color: black;
+}
+body .contenedor-todo .comun .contenedor-footer .part3 h1 {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+body .contenedor-todo .comun .contenedor-footer .part3 ul {
+  font-size: 15px;
+  list-style: none;
+}
+body .contenedor-todo .comun .contenedor-footer .part3 ul li {
+  padding-bottom: 9px;
+}
+body .contenedor-todo .comun .contenedor-footer .part3 ul li a {
+  text-decoration: none;
+  color: gray;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+body .contenedor-todo .comun .contenedor-footer .part3 ul li a:hover {
+  color: #82E0AA;
+  transition: 1s ease;
+}
+body .contenedor-todo .comun .contenedor-footer .part4 {
+  width: 175px;
+  height: 260px;
+  background: #FBFCFC;
+  margin-left: 15px;
+  color: black;
+}
+body .contenedor-todo .comun .contenedor-footer .part4 h1 {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+body .contenedor-todo .comun .contenedor-footer .part4 ul {
+  font-size: 15px;
+  list-style: none;
+}
+body .contenedor-todo .comun .contenedor-footer .part4 ul li {
+  padding-bottom: 9px;
+  list-style: none;
+}
+body .contenedor-todo .comun .contenedor-footer .part4 ul li a {
+  text-decoration: none;
+  color: gray;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+body .contenedor-todo .comun .contenedor-footer .part4 ul li a:hover {
+  color: #82E0AA;
+  transition: 1s ease;
+}
+body .contenedor-todo .comun .derechos {
+  width: 100%;
+  height: 68px;
+  background: #FBFCFC;
+  display: flex;
+}
+body .contenedor-todo .comun .derechos .texto-derechos {
+  padding-top: 23px;
+  margin-left: 72px;
+  color: gray;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+body .contenedor-todo .comun .derechos a {
+  margin-left: 15px;
+  padding-top: 20px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: gray;
+}
+body .contenedor-todo .comun .derechos a:hover {
+  color: #82E0AA;
+  transition: 1s;
+}
+body .contenedor-todo .comun .derechos .texto-derechos1 {
+  margin-left: 530px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 21px;
+  color: gray;
+}
+body .contenedor-todo .comun .derechos i {
+  padding-left: 12px;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 320px) {
+  body .contenedor-todo header section .cabecera-navegacion {
+    width: 100%;
+    height: 75px;
+    background: #eeeeee;
+    display: block;
+    justify-content: center;
+  }
+  body .contenedor-todo header section .cabecera-navegacion p {
+    width: 100%;
+    color: gray;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    padding-left: 8px;
+    padding-top: 13px;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera {
+    display: flex;
+    padding-right: 0px;
+    padding-left: 96px;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div {
+    padding-right: 28px;
+    padding-top: 10px;
+    font-size: 17px;
+    position: relative;
+    z-index: 9999999;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div:hover .sub-menu {
+    display: block;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div:hover .sub-menu-2 {
+    display: block;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div a {
+    text-decoration: none;
+    color: #b2aeae;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div a:hover {
+    color: #a6c76c;
+    transition: 1s ease;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div .sub-menu {
+    list-style: none;
+    position: absolute;
+    top: 39px;
+    width: 130%;
+    background: white;
+    /* border-radius: 4px; */
+    box-shadow: 0px 1px 4px #A6ACAF;
+    display: none;
+    padding: 5px 34px 5px 16px;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div .sub-menu li {
+    text-decoration: none;
+    list-style: none;
+    color: gray;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div .sub-menu li a {
+    display: block;
+    color: #6d6d6d;
+    padding: 5px 0;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div .sub-menu li a:hover {
+    color: #a6c76c;
+    transition: 1s ease;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div .sub-menu-2 {
+    list-style: none;
+    position: absolute;
+    top: 39px;
+    width: 175%;
+    background: white;
+    /* border-radius: 4px; */
+    box-shadow: 0px 1px 4px #A6ACAF;
+    display: none;
+    padding: 5px 34px 5px 16px;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div .sub-menu-2 li {
+    text-decoration: none;
+    list-style: none;
+    color: gray;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div .sub-menu-2 li a {
+    display: block;
+    color: #6d6d6d;
+    padding: 5px 0;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div .sub-menu-2 li a:hover {
+    color: #a6c76c;
+    transition: 1s ease;
+  }
+  body .contenedor-todo header section .bajo-cabecera {
+    display: none;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 {
+    width: 100%;
+    height: 80px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid silver;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .logo {
+    margin-top: 17px;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .logo div i {
+    font-size: 24px;
+    text-align: center;
+    margin-right: 10px;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .logo div img {
+    width: 77px;
+    height: 18px;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones {
+    display: flex;
+    width: 143px;
+    margin-top: 3px;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones .text-1 {
+    display: block;
+    margin-top: 10px;
+    margin-right: 5px;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones .text-1 .icono i {
+    margin-left: 17px;
+    font-size: 20px;
+    color: #141414;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones .text-1 .texto {
+    font-size: 11px;
+    font-family: "Poppins", sans-serif;
+    color: #b8b8b8;
+    text-decoration: none;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones .text-2 {
+    display: block;
+    margin-top: 10px;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones .text-2 .icono i {
+    margin-left: 10px;
+    font-size: 20px;
+    color: #141414;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones .text-2 .texto {
+    font-size: 11px;
+    font-family: "Poppins", sans-serif;
+    color: #b8b8b8;
+    text-decoration: none;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones .text-3 {
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones .text-3 .icono i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #141414;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones .text-3 .texto {
+    font-size: 11px;
+    font-family: "Poppins", sans-serif;
+    color: #b8b8b8;
+    text-decoration: none;
+  }
+  body .contenedor-todo header section .texto-arriba-imagen-iphone {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background: #eeeeee;
+    padding-top: 15px;
+    padding-left: 10px;
+    border-bottom: none;
+  }
+  body .contenedor-todo header section .texto-arriba-imagen-iphone p {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    margin-right: 5px;
+    color: #8d8d8d;
+  }
+  body .contenedor-todo header section .texto-arriba-imagen-iphone i {
+    font-size: 10px;
+    margin-top: 3.5px;
+    margin-right: 5px;
+    color: #8d8d8d;
+  }
+  body .contenedor-todo header section .texto-arriba-imagen-iphone .octo {
+    color: black;
+  }
+  body .contenedor-todo header section .caja-img-iphone {
+    width: 100%;
+    height: 290px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid white;
+  }
+  body .contenedor-todo header section .caja-img-iphone .icono1 {
+    width: 38px;
+    height: 290px;
+    background: #eeeeee;
+    padding-left: 10px;
+    padding-top: 140px;
+  }
+  body .contenedor-todo header section .caja-img-iphone .icono1 i {
+    color: #b8b8b8;
+  }
+  body .contenedor-todo header section .caja-img-iphone img {
+    width: 250px;
+    height: 290px;
+  }
+  body .contenedor-todo header section .caja-img-iphone .icono2 {
+    width: 38px;
+    height: 290px;
+    background: #eeeeee;
+    padding-top: 140px;
+    padding-left: 13px;
+  }
+  body .contenedor-todo header section .caja-img-iphone .icono2 i {
+    color: #b8b8b8;
+  }
+  body .contenedor-todo header section .espacio-bajo-img-iphone {
+    margin-top: 2px;
+    width: 100%;
+    height: 50px;
+    background: #eeeeee;
+    border-top: 2px solid white;
+    display: flex;
+  }
+  body .contenedor-todo header section .espacio-bajo-img-iphone p {
+    color: gray;
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 18px;
+    margin-left: 5px;
+  }
+  body .contenedor-todo header section .informacion {
+    width: 100%;
+    height: 514px;
+    background: white;
+    display: block;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+  }
+  body .contenedor-todo header section .informacion .linea-1 {
+    margin-bottom: 9px;
+  }
+  body .contenedor-todo header section .informacion .linea-1 p {
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    color: #1f1f1f;
+  }
+  body .contenedor-todo header section .informacion .linea-2 {
+    margin-bottom: 9px;
+  }
+  body .contenedor-todo header section .informacion .linea-2 p {
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    color: #a6c76c;
+  }
+  body .contenedor-todo header section .informacion .linea-3 {
+    margin-bottom: 12px;
+  }
+  body .contenedor-todo header section .informacion .linea-3 p {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+    line-height: 1.5;
+  }
+  body .contenedor-todo header section .informacion .linea-4 {
+    margin-bottom: 16px;
+  }
+  body .contenedor-todo header section .informacion .linea-4 a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    color: #414141;
+    margin: 3px;
+  }
+  body .contenedor-todo header section .informacion .linea-5 {
+    margin-bottom: 16px;
+  }
+  body .contenedor-todo header section .informacion .linea-5 p {
+    font-size: 16px;
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo header section .informacion .linea-5 p i {
+    font-size: 10px;
+    color: #a6c76c;
+  }
+  body .contenedor-todo header section .informacion .linea-6 {
+    margin-bottom: 19px;
+  }
+  body .contenedor-todo header section .informacion .linea-6 p {
+    font-size: 14px;
+    color: #666565;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo header section .informacion .linea-6 p i {
+    margin-left: 10px;
+  }
+  body .contenedor-todo header section .informacion .linea-7 {
+    padding-left: 95px;
+    margin-bottom: 19px;
+  }
+  body .contenedor-todo header section .informacion .linea-7 .cajita {
+    width: 100px;
+    height: 40px;
+    border: 1px solid gray;
+    padding-top: 10px;
+  }
+  body .contenedor-todo header section .informacion .linea-7 .cajita span {
+    color: #b3b3b3;
+  }
+  body .contenedor-todo header section .informacion .linea-8 {
+    margin-bottom: 30px;
+    padding-left: 40px;
+  }
+  body .contenedor-todo header section .informacion .linea-8 .boton {
+    padding-top: 10px;
+    width: 200px;
+    height: 40px;
+    background: #a6c76c;
+  }
+  body .contenedor-todo header section .informacion .linea-8 .boton a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo header section .informacion .linea-8 .boton a i {
+    text-align: center;
+    align-items: center;
+    margin-right: 5px;
+    font-size: 13px;
+  }
+  body .contenedor-todo header section .informacion .linea-9 a {
+    text-decoration: none;
+    color: #777777;
+    padding-left: 20px;
+    padding-right: 25px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo header section .informacion .linea-9 a i {
+    color: #a6c76c;
+    padding-right: 10px;
+  }
+  body .contenedor-todo header section .descripcion {
+    width: 95%;
+    height: 1791px;
+    background: white;
+    display: block;
+    margin-left: 8px;
+    padding: 30px;
+    box-shadow: 0px 0px 4px silver;
+    margin-top: 45px;
+  }
+  body .contenedor-todo header section .descripcion .linea-1 {
+    margin-bottom: 45px;
+  }
+  body .contenedor-todo header section .descripcion .linea-1 p {
+    font-size: 16px;
+    color: tomato;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo header section .descripcion .linea-2 p {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-bottom: 25px;
+  }
+  body .contenedor-todo header section .descripcion .linea-2 span {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+    line-height: 31px;
+  }
+  body .contenedor-todo header section .descripcion .linea-2 .lista {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  body .contenedor-todo header section .descripcion .linea-2 .lista ul li {
+    font-size: 16px;
+    line-height: 36px;
+    color: #333333;
+  }
+  body .contenedor-todo header section .descripcion .linea-2 .imagenes-descripcion {
+    margin-left: 13px;
+    margin-bottom: 20px;
+  }
+  body .contenedor-todo header section .descripcion .linea-2 .imagenes-descripcion img {
+    width: 220px;
+    height: auto;
+  }
+  body .contenedor-todo header section .descripcion .linea-3 {
+    margin-left: 10px;
+  }
+  body .contenedor-todo header section .descripcion .linea-3 p {
+    font-size: 18px;
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-bottom: 18px;
+  }
+  body .contenedor-todo header section .descripcion .linea-3 span {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #777777;
+    line-height: 26px;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo header section .contenedor-opcion {
+    display: block;
+    margin-left: 9px;
+    box-shadow: 0px 0px 2px silver;
+    margin-top: 2px;
+  }
+  body .contenedor-todo header section .contenedor-opcion .opcion-1 {
+    width: 97.7%;
+    height: 60px;
+    background: #eeeeee;
+    border: 1px solid #d4d4d4;
+    padding-left: 20px;
+    padding-top: 21px;
+  }
+  body .contenedor-todo header section .contenedor-opcion .opcion-1 span {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #333333;
+  }
+  body .contenedor-todo header section .contenedor-opcion .opcion-1 span i {
+    margin-left: 115px;
+    color: #8d8d8d;
+  }
+  body .contenedor-todo header section .contenedor-opcion .opcion-2 {
+    width: 97.7%;
+    height: 60px;
+    background: #eeeeee;
+    border-bottom: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
+    border-left: 1px solid #d4d4d4;
+    padding-left: 20px;
+    padding-top: 21px;
+  }
+  body .contenedor-todo header section .contenedor-opcion .opcion-2 span {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #333333;
+  }
+  body .contenedor-todo header section .contenedor-opcion .opcion-2 span i {
+    margin-left: 193px;
+    color: #8d8d8d;
+  }
+  body .contenedor-todo header section .menus-desplegables {
+    display: none;
+  }
+  body .contenedor-todo footer {
+    margin-top: 90px;
+    border-top: 1px solid #dbdbdb;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone {
+    display: block;
+    width: 100%;
+    height: 1090px;
+    background: white;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .texto {
+    margin-bottom: 25px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .texto p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #777777;
+    line-height: 26px;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .accesorio p {
+    font-weight: 300;
+    font-size: 14px;
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .accesorio span {
+    color: #a6c76c;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-1 {
+    margin-top: 30px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-1 h5 {
+    font-size: 16px;
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 15px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-1 ul li {
+    margin-bottom: 7px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-1 ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-2 {
+    margin-top: 30px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-2 h5 {
+    font-size: 16px;
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 15px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-2 ul li {
+    margin-bottom: 7px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-2 ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-3 h5 {
+    font-size: 16px;
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 15px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-3 ul li {
+    margin-bottom: 7px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-3 ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .bajo-footer-iphone p {
+    margin-left: 18px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .bajo-footer-iphone .lista-bajo-ft ul {
+    display: flex;
+    margin-top: 20px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .bajo-footer-iphone .lista-bajo-ft ul li {
+    margin-left: 40px;
+    list-style: none;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .bajo-footer-iphone .lista-bajo-ft ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "poppins", sans-serif;
+    border-bottom: 1px solid gray;
+    color: #777777;
+  }
+  body .contenedor-todo .caja {
+    display: none;
+  }
+  body .contenedor-todo .espacio {
+    display: none;
+  }
+  body .contenedor-todo .container {
+    display: none;
+  }
+  body .contenedor-todo .sobre-caja {
+    display: none;
+  }
+  body .contenedor-todo .caja-texto-img {
+    display: none;
+  }
+  body .contenedor-todo .comun {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  body .contenedor-todo header section .cabecera-navegacion {
+    width: 100%;
+    height: 75px;
+    background: #eeeeee;
+    display: block;
+    justify-content: center;
+  }
+  body .contenedor-todo header section .cabecera-navegacion p {
+    width: 100%;
+    color: gray;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    padding-left: 55px;
+    padding-top: 13px;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera {
+    display: flex;
+    padding-right: 0px;
+    padding-left: 140px;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div {
+    padding-right: 28px;
+    padding-top: 10px;
+    font-size: 17px;
+    position: relative;
+    z-index: 9999999;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div:hover .sub-menu {
+    display: block;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div:hover .sub-menu-2 {
+    display: block;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div a {
+    text-decoration: none;
+    color: #b2aeae;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div a:hover {
+    color: #a6c76c;
+    transition: 1s ease;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div .sub-menu {
+    list-style: none;
+    position: absolute;
+    top: 39px;
+    width: 130%;
+    background: white;
+    /* border-radius: 4px; */
+    box-shadow: 0px 1px 4px #A6ACAF;
+    display: none;
+    padding: 5px 34px 5px 16px;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div .sub-menu li {
+    text-decoration: none;
+    list-style: none;
+    color: gray;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div .sub-menu li a {
+    display: block;
+    color: #6d6d6d;
+    padding: 5px 0;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div .sub-menu li a:hover {
+    color: #a6c76c;
+    transition: 1s ease;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div .sub-menu-2 {
+    list-style: none;
+    position: absolute;
+    top: 39px;
+    width: 175%;
+    background: white;
+    /* border-radius: 4px; */
+    box-shadow: 0px 1px 4px #A6ACAF;
+    display: none;
+    padding: 5px 34px 5px 16px;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div .sub-menu-2 li {
+    text-decoration: none;
+    list-style: none;
+    color: gray;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div .sub-menu-2 li a {
+    display: block;
+    color: #6d6d6d;
+    padding: 5px 0;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div .sub-menu-2 li a:hover {
+    color: #a6c76c;
+    transition: 1s ease;
+  }
+  body .contenedor-todo header section .bajo-cabecera {
+    display: none;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 {
+    width: 100%;
+    height: 80px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid silver;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .logo {
+    margin-top: 17px;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .logo div i {
+    font-size: 24px;
+    text-align: center;
+    margin-right: 10px;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .logo div img {
+    width: 77px;
+    height: 18px;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones {
+    display: flex;
+    width: 143px;
+    margin-top: 3px;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones .text-1 {
+    display: block;
+    margin-top: 10px;
+    margin-right: 5px;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones .text-1 .icono i {
+    margin-left: 17px;
+    font-size: 20px;
+    color: #141414;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones .text-1 .texto {
+    font-size: 11px;
+    font-family: "Poppins", sans-serif;
+    color: #b8b8b8;
+    text-decoration: none;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones .text-2 {
+    display: block;
+    margin-top: 10px;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones .text-2 .icono i {
+    margin-left: 10px;
+    font-size: 20px;
+    color: #141414;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones .text-2 .texto {
+    font-size: 11px;
+    font-family: "Poppins", sans-serif;
+    color: #b8b8b8;
+    text-decoration: none;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones .text-3 {
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones .text-3 .icono i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #141414;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones .text-3 .texto {
+    font-size: 11px;
+    font-family: "Poppins", sans-serif;
+    color: #b8b8b8;
+    text-decoration: none;
+  }
+  body .contenedor-todo header section .texto-arriba-imagen-iphone {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background: #eeeeee;
+    padding-top: 15px;
+    padding-left: 10px;
+    border-bottom: none;
+  }
+  body .contenedor-todo header section .texto-arriba-imagen-iphone p {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    margin-right: 5px;
+    color: #8d8d8d;
+  }
+  body .contenedor-todo header section .texto-arriba-imagen-iphone i {
+    font-size: 10px;
+    margin-top: 3.5px;
+    margin-right: 5px;
+    color: #8d8d8d;
+  }
+  body .contenedor-todo header section .texto-arriba-imagen-iphone .octo {
+    color: black;
+  }
+  body .contenedor-todo header section .caja-img-iphone {
+    width: 100%;
+    height: 290px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid white;
+  }
+  body .contenedor-todo header section .caja-img-iphone .icono1 {
+    width: 38px;
+    height: 290px;
+    background: #eeeeee;
+    padding-left: 10px;
+    padding-top: 140px;
+  }
+  body .contenedor-todo header section .caja-img-iphone .icono1 i {
+    color: #b8b8b8;
+  }
+  body .contenedor-todo header section .caja-img-iphone img {
+    width: 250px;
+    height: 290px;
+  }
+  body .contenedor-todo header section .caja-img-iphone .icono2 {
+    width: 38px;
+    height: 290px;
+    background: #eeeeee;
+    padding-top: 140px;
+    padding-left: 13px;
+  }
+  body .contenedor-todo header section .caja-img-iphone .icono2 i {
+    color: #b8b8b8;
+  }
+  body .contenedor-todo header section .espacio-bajo-img-iphone {
+    margin-top: 2px;
+    width: 100%;
+    height: 50px;
+    background: #eeeeee;
+    border-top: 2px solid white;
+    display: flex;
+  }
+  body .contenedor-todo header section .espacio-bajo-img-iphone p {
+    color: gray;
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 18px;
+    margin-left: 5px;
+  }
+  body .contenedor-todo header section .informacion {
+    width: 100%;
+    height: 514px;
+    background: white;
+    display: block;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+  }
+  body .contenedor-todo header section .informacion .linea-1 {
+    margin-bottom: 9px;
+  }
+  body .contenedor-todo header section .informacion .linea-1 p {
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    color: #1f1f1f;
+  }
+  body .contenedor-todo header section .informacion .linea-2 {
+    margin-bottom: 9px;
+  }
+  body .contenedor-todo header section .informacion .linea-2 p {
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    color: #a6c76c;
+  }
+  body .contenedor-todo header section .informacion .linea-3 {
+    margin-bottom: 12px;
+  }
+  body .contenedor-todo header section .informacion .linea-3 p {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+    line-height: 1.5;
+  }
+  body .contenedor-todo header section .informacion .linea-4 {
+    margin-bottom: 16px;
+  }
+  body .contenedor-todo header section .informacion .linea-4 a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    color: #414141;
+    margin: 3px;
+  }
+  body .contenedor-todo header section .informacion .linea-5 {
+    margin-bottom: 16px;
+  }
+  body .contenedor-todo header section .informacion .linea-5 p {
+    font-size: 16px;
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo header section .informacion .linea-5 p i {
+    font-size: 10px;
+    color: #a6c76c;
+  }
+  body .contenedor-todo header section .informacion .linea-6 {
+    margin-bottom: 19px;
+  }
+  body .contenedor-todo header section .informacion .linea-6 p {
+    font-size: 14px;
+    color: #666565;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo header section .informacion .linea-6 p i {
+    margin-left: 10px;
+  }
+  body .contenedor-todo header section .informacion .linea-7 {
+    padding-left: 144px;
+    margin-bottom: 19px;
+  }
+  body .contenedor-todo header section .informacion .linea-7 .cajita {
+    width: 100px;
+    height: 40px;
+    border: 1px solid gray;
+    padding-top: 10px;
+  }
+  body .contenedor-todo header section .informacion .linea-7 .cajita span {
+    color: #b3b3b3;
+  }
+  body .contenedor-todo header section .informacion .linea-8 {
+    margin-bottom: 30px;
+    padding-left: 88px;
+  }
+  body .contenedor-todo header section .informacion .linea-8 .boton {
+    padding-top: 10px;
+    width: 200px;
+    height: 40px;
+    background: #a6c76c;
+  }
+  body .contenedor-todo header section .informacion .linea-8 .boton a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo header section .informacion .linea-8 .boton a i {
+    text-align: center;
+    align-items: center;
+    margin-right: 5px;
+    font-size: 13px;
+  }
+  body .contenedor-todo header section .informacion .linea-9 a {
+    text-decoration: none;
+    color: #777777;
+    padding-left: 20px;
+    padding-right: 25px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo header section .informacion .linea-9 a i {
+    color: #a6c76c;
+    padding-right: 10px;
+  }
+  body .contenedor-todo header section .descripcion {
+    width: 95%;
+    height: 1791px;
+    background: white;
+    display: block;
+    margin-left: 8px;
+    padding: 30px;
+    box-shadow: 0px 0px 4px silver;
+    margin-top: 45px;
+  }
+  body .contenedor-todo header section .descripcion .linea-1 {
+    margin-bottom: 45px;
+  }
+  body .contenedor-todo header section .descripcion .linea-1 p {
+    font-size: 16px;
+    color: tomato;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo header section .descripcion .linea-2 p {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-bottom: 25px;
+  }
+  body .contenedor-todo header section .descripcion .linea-2 span {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+    line-height: 31px;
+  }
+  body .contenedor-todo header section .descripcion .linea-2 .lista {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  body .contenedor-todo header section .descripcion .linea-2 .lista ul li {
+    font-size: 16px;
+    line-height: 36px;
+    color: #333333;
+  }
+  body .contenedor-todo header section .descripcion .linea-2 .imagenes-descripcion {
+    margin-left: 13px;
+    margin-bottom: 20px;
+  }
+  body .contenedor-todo header section .descripcion .linea-2 .imagenes-descripcion img {
+    width: 301px;
+    height: auto;
+  }
+  body .contenedor-todo header section .descripcion .linea-3 {
+    margin-left: 10px;
+    margin-top: 70px;
+  }
+  body .contenedor-todo header section .descripcion .linea-3 p {
+    font-size: 18px;
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-bottom: 18px;
+  }
+  body .contenedor-todo header section .descripcion .linea-3 span {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #777777;
+    line-height: 26px;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo header section .contenedor-opcion {
+    display: block;
+    margin-left: 9px;
+    box-shadow: 0px 0px 2px silver;
+    margin-top: 2px;
+  }
+  body .contenedor-todo header section .contenedor-opcion .opcion-1 {
+    width: 97%;
+    height: 60px;
+    background: #eeeeee;
+    border: 1px solid #d4d4d4;
+    padding-left: 20px;
+    padding-top: 21px;
+  }
+  body .contenedor-todo header section .contenedor-opcion .opcion-1 span {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #333333;
+  }
+  body .contenedor-todo header section .contenedor-opcion .opcion-1 span i {
+    margin-left: 195px;
+    color: #8d8d8d;
+  }
+  body .contenedor-todo header section .contenedor-opcion .opcion-2 {
+    width: 97%;
+    height: 60px;
+    background: #eeeeee;
+    border-bottom: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
+    border-left: 1px solid #d4d4d4;
+    padding-left: 20px;
+    padding-top: 21px;
+  }
+  body .contenedor-todo header section .contenedor-opcion .opcion-2 span {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #333333;
+  }
+  body .contenedor-todo header section .contenedor-opcion .opcion-2 span i {
+    margin-left: 273px;
+    color: #8d8d8d;
+  }
+  body .contenedor-todo header section .menus-desplegables {
+    display: none;
+  }
+  body .contenedor-todo footer {
+    margin-top: 90px;
+    border-top: 1px solid #dbdbdb;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone {
+    display: block;
+    width: 100%;
+    height: 1000px;
+    background: white;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .texto {
+    margin-bottom: 25px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .texto p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #777777;
+    line-height: 26px;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .accesorio p {
+    font-weight: 300;
+    font-size: 14px;
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .accesorio span {
+    color: #a6c76c;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-1 {
+    margin-top: 30px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-1 h5 {
+    font-size: 16px;
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 15px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-1 ul li {
+    margin-bottom: 7px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-1 ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-2 {
+    margin-top: 30px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-2 h5 {
+    font-size: 16px;
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 15px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-2 ul li {
+    margin-bottom: 7px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-2 ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-3 h5 {
+    font-size: 16px;
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 15px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-3 ul li {
+    margin-bottom: 7px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-3 ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .bajo-footer-iphone p {
+    margin-left: 18px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .bajo-footer-iphone .lista-bajo-ft ul {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 36px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .bajo-footer-iphone .lista-bajo-ft ul li {
+    margin-left: 40px;
+    list-style: none;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .bajo-footer-iphone .lista-bajo-ft ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "poppins", sans-serif;
+    border-bottom: 1px solid gray;
+    color: #777777;
+  }
+  body .contenedor-todo .caja {
+    display: none;
+  }
+  body .contenedor-todo .espacio {
+    display: none;
+  }
+  body .contenedor-todo .container {
+    display: none;
+  }
+  body .contenedor-todo .sobre-caja {
+    display: none;
+  }
+  body .contenedor-todo .caja-texto-img {
+    display: none;
+  }
+  body .contenedor-todo .comun {
+    display: none;
+  }
+}
+@media (max-width: 360px) {
+  body .contenedor-todo header section .cabecera-navegacion {
+    width: 100%;
+    height: 75px;
+    background: #eeeeee;
+    display: block;
+    justify-content: center;
+  }
+  body .contenedor-todo header section .cabecera-navegacion p {
+    width: 100%;
+    color: gray;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    padding-left: 22px;
+    padding-top: 13px;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera {
+    display: flex;
+    padding-right: 0px;
+    padding-left: 96px;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div {
+    margin-left: 9px;
+    padding-right: 28px;
+    padding-top: 10px;
+    font-size: 17px;
+    position: relative;
+    z-index: 9999999;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div:hover .sub-menu {
+    display: block;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div:hover .sub-menu-2 {
+    display: block;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div a {
+    text-decoration: none;
+    color: #b2aeae;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div a:hover {
+    color: #a6c76c;
+    transition: 1s ease;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div .sub-menu {
+    list-style: none;
+    position: absolute;
+    top: 39px;
+    width: 130%;
+    background: white;
+    /* border-radius: 4px; */
+    box-shadow: 0px 1px 4px #A6ACAF;
+    display: none;
+    padding: 5px 34px 5px 16px;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div .sub-menu li {
+    text-decoration: none;
+    list-style: none;
+    color: gray;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div .sub-menu li a {
+    display: block;
+    color: #6d6d6d;
+    padding: 5px 0;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div .sub-menu li a:hover {
+    color: #a6c76c;
+    transition: 1s ease;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div .sub-menu-2 {
+    list-style: none;
+    position: absolute;
+    top: 39px;
+    width: 175%;
+    background: white;
+    /* border-radius: 4px; */
+    box-shadow: 0px 1px 4px #A6ACAF;
+    display: none;
+    padding: 5px 34px 5px 16px;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div .sub-menu-2 li {
+    text-decoration: none;
+    list-style: none;
+    color: gray;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div .sub-menu-2 li a {
+    display: block;
+    color: #6d6d6d;
+    padding: 5px 0;
+  }
+  body .contenedor-todo header section .cabecera-navegacion .menu-cabecera div .sub-menu-2 li a:hover {
+    color: #a6c76c;
+    transition: 1s ease;
+  }
+  body .contenedor-todo header section .bajo-cabecera {
+    display: none;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 {
+    width: 100%;
+    height: 80px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid silver;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .logo {
+    margin-top: 17px;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .logo div i {
+    font-size: 24px;
+    text-align: center;
+    margin-right: 10px;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .logo div img {
+    width: 77px;
+    height: 18px;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones {
+    display: flex;
+    width: 143px;
+    margin-top: 3px;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones .text-1 {
+    display: block;
+    margin-top: 10px;
+    margin-right: 5px;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones .text-1 .icono i {
+    margin-left: 17px;
+    font-size: 20px;
+    color: #141414;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones .text-1 .texto {
+    font-size: 11px;
+    font-family: "Poppins", sans-serif;
+    color: #b8b8b8;
+    text-decoration: none;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones .text-2 {
+    display: block;
+    margin-top: 10px;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones .text-2 .icono i {
+    margin-left: 10px;
+    font-size: 20px;
+    color: #141414;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones .text-2 .texto {
+    font-size: 11px;
+    font-family: "Poppins", sans-serif;
+    color: #b8b8b8;
+    text-decoration: none;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones .text-3 {
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones .text-3 .icono i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #141414;
+  }
+  body .contenedor-todo header section .bajo-cabecera-1 .contenedor-3-botones .text-3 .texto {
+    font-size: 11px;
+    font-family: "Poppins", sans-serif;
+    color: #b8b8b8;
+    text-decoration: none;
+  }
+  body .contenedor-todo header section .texto-arriba-imagen-iphone {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background: #eeeeee;
+    padding-top: 15px;
+    padding-left: 10px;
+    border-bottom: none;
+  }
+  body .contenedor-todo header section .texto-arriba-imagen-iphone p {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    margin-right: 5px;
+    color: #8d8d8d;
+  }
+  body .contenedor-todo header section .texto-arriba-imagen-iphone i {
+    font-size: 10px;
+    margin-top: 3.5px;
+    margin-right: 5px;
+    color: #8d8d8d;
+  }
+  body .contenedor-todo header section .texto-arriba-imagen-iphone .octo {
+    color: black;
+  }
+  body .contenedor-todo header section .caja-img-iphone {
+    width: 100%;
+    height: 290px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid white;
+  }
+  body .contenedor-todo header section .caja-img-iphone .icono1 {
+    width: 38px;
+    height: 290px;
+    background: #eeeeee;
+    padding-left: 10px;
+    padding-top: 140px;
+  }
+  body .contenedor-todo header section .caja-img-iphone .icono1 i {
+    color: #b8b8b8;
+  }
+  body .contenedor-todo header section .caja-img-iphone img {
+    width: 250px;
+    height: 290px;
+  }
+  body .contenedor-todo header section .caja-img-iphone .icono2 {
+    width: 38px;
+    height: 290px;
+    background: #eeeeee;
+    padding-top: 140px;
+    padding-left: 13px;
+  }
+  body .contenedor-todo header section .caja-img-iphone .icono2 i {
+    color: #b8b8b8;
+  }
+  body .contenedor-todo header section .espacio-bajo-img-iphone {
+    margin-top: 2px;
+    width: 100%;
+    height: 50px;
+    background: #eeeeee;
+    border-top: 2px solid white;
+    display: flex;
+  }
+  body .contenedor-todo header section .espacio-bajo-img-iphone p {
+    color: gray;
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 18px;
+    margin-left: 5px;
+  }
+  body .contenedor-todo header section .informacion {
+    width: 100%;
+    height: 514px;
+    background: white;
+    display: block;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+  }
+  body .contenedor-todo header section .informacion .linea-1 {
+    margin-bottom: 9px;
+  }
+  body .contenedor-todo header section .informacion .linea-1 p {
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    color: #1f1f1f;
+  }
+  body .contenedor-todo header section .informacion .linea-2 {
+    margin-bottom: 9px;
+  }
+  body .contenedor-todo header section .informacion .linea-2 p {
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    color: #a6c76c;
+  }
+  body .contenedor-todo header section .informacion .linea-3 {
+    margin-bottom: 12px;
+  }
+  body .contenedor-todo header section .informacion .linea-3 p {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+    line-height: 1.5;
+  }
+  body .contenedor-todo header section .informacion .linea-4 {
+    margin-bottom: 16px;
+  }
+  body .contenedor-todo header section .informacion .linea-4 a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    color: #414141;
+    margin: 3px;
+  }
+  body .contenedor-todo header section .informacion .linea-5 {
+    margin-bottom: 16px;
+  }
+  body .contenedor-todo header section .informacion .linea-5 p {
+    font-size: 16px;
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo header section .informacion .linea-5 p i {
+    font-size: 10px;
+    color: #a6c76c;
+  }
+  body .contenedor-todo header section .informacion .linea-6 {
+    margin-bottom: 19px;
+  }
+  body .contenedor-todo header section .informacion .linea-6 p {
+    font-size: 14px;
+    color: #666565;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo header section .informacion .linea-6 p i {
+    margin-left: 10px;
+  }
+  body .contenedor-todo header section .informacion .linea-7 {
+    padding-left: 116px;
+    margin-bottom: 19px;
+  }
+  body .contenedor-todo header section .informacion .linea-7 .cajita {
+    width: 100px;
+    height: 40px;
+    border: 1px solid gray;
+    padding-top: 10px;
+  }
+  body .contenedor-todo header section .informacion .linea-7 .cajita span {
+    color: #b3b3b3;
+  }
+  body .contenedor-todo header section .informacion .linea-8 {
+    margin-bottom: 30px;
+    padding-left: 63px;
+  }
+  body .contenedor-todo header section .informacion .linea-8 .boton {
+    padding-top: 10px;
+    width: 200px;
+    height: 40px;
+    background: #a6c76c;
+  }
+  body .contenedor-todo header section .informacion .linea-8 .boton a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo header section .informacion .linea-8 .boton a i {
+    text-align: center;
+    align-items: center;
+    margin-right: 5px;
+    font-size: 13px;
+  }
+  body .contenedor-todo header section .informacion .linea-9 a {
+    text-decoration: none;
+    color: #777777;
+    padding-left: 20px;
+    padding-right: 25px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo header section .informacion .linea-9 a i {
+    color: #a6c76c;
+    padding-right: 10px;
+  }
+  body .contenedor-todo header section .descripcion {
+    width: 95%;
+    height: 1791px;
+    background: white;
+    display: block;
+    margin-left: 8px;
+    padding: 30px;
+    box-shadow: 0px 0px 4px silver;
+    margin-top: 45px;
+  }
+  body .contenedor-todo header section .descripcion .linea-1 {
+    margin-bottom: 45px;
+  }
+  body .contenedor-todo header section .descripcion .linea-1 p {
+    font-size: 16px;
+    color: tomato;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo header section .descripcion .linea-2 p {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-bottom: 25px;
+  }
+  body .contenedor-todo header section .descripcion .linea-2 span {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+    line-height: 31px;
+  }
+  body .contenedor-todo header section .descripcion .linea-2 .lista {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  body .contenedor-todo header section .descripcion .linea-2 .lista ul li {
+    font-size: 16px;
+    line-height: 36px;
+    color: #333333;
+  }
+  body .contenedor-todo header section .descripcion .linea-2 .imagenes-descripcion {
+    margin-left: 13px;
+    margin-bottom: 20px;
+  }
+  body .contenedor-todo header section .descripcion .linea-2 .imagenes-descripcion img {
+    width: 254px;
+    height: auto;
+  }
+  body .contenedor-todo header section .descripcion .linea-3 {
+    margin-left: 10px;
+  }
+  body .contenedor-todo header section .descripcion .linea-3 p {
+    font-size: 18px;
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-bottom: 18px;
+  }
+  body .contenedor-todo header section .descripcion .linea-3 span {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #777777;
+    line-height: 26px;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo header section .contenedor-opcion {
+    display: block;
+    margin-left: 9px;
+    box-shadow: 0px 0px 2px silver;
+    margin-top: 2px;
+  }
+  body .contenedor-todo header section .contenedor-opcion .opcion-1 {
+    width: 97.7%;
+    height: 60px;
+    background: #eeeeee;
+    border: 1px solid #d4d4d4;
+    padding-left: 20px;
+    padding-top: 21px;
+  }
+  body .contenedor-todo header section .contenedor-opcion .opcion-1 span {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #333333;
+  }
+  body .contenedor-todo header section .contenedor-opcion .opcion-1 span i {
+    margin-left: 115px;
+    color: #8d8d8d;
+  }
+  body .contenedor-todo header section .contenedor-opcion .opcion-2 {
+    width: 97.7%;
+    height: 60px;
+    background: #eeeeee;
+    border-bottom: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
+    border-left: 1px solid #d4d4d4;
+    padding-left: 20px;
+    padding-top: 21px;
+  }
+  body .contenedor-todo header section .contenedor-opcion .opcion-2 span {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #333333;
+  }
+  body .contenedor-todo header section .contenedor-opcion .opcion-2 span i {
+    margin-left: 193px;
+    color: #8d8d8d;
+  }
+  body .contenedor-todo header section .menus-desplegables {
+    display: none;
+  }
+  body .contenedor-todo footer {
+    display: block;
+    margin-top: 90px;
+    border-top: 1px solid #dbdbdb;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone {
+    display: block;
+    width: 100%;
+    height: 1090px;
+    background: white;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .texto {
+    margin-bottom: 25px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .texto p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #777777;
+    line-height: 26px;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .accesorio p {
+    font-weight: 300;
+    font-size: 14px;
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .accesorio span {
+    color: #a6c76c;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-1 {
+    margin-top: 30px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-1 h5 {
+    font-size: 16px;
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 15px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-1 ul li {
+    margin-bottom: 7px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-1 ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-2 {
+    margin-top: 30px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-2 h5 {
+    font-size: 16px;
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 15px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-2 ul li {
+    margin-bottom: 7px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-2 ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-3 h5 {
+    font-size: 16px;
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 15px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-3 ul li {
+    margin-bottom: 7px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .lista-3 ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .bajo-footer-iphone p {
+    margin-left: 18px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .bajo-footer-iphone .lista-bajo-ft ul {
+    display: flex;
+    margin-top: 20px;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .bajo-footer-iphone .lista-bajo-ft ul li {
+    margin-left: 40px;
+    list-style: none;
+  }
+  body .contenedor-todo footer .contenedor-footer-iphone .bajo-footer-iphone .lista-bajo-ft ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "poppins", sans-serif;
+    border-bottom: 1px solid gray;
+    color: #777777;
+  }
+  body .contenedor-todo .caja {
+    display: none;
+  }
+  body .contenedor-todo .espacio {
+    display: none;
+  }
+  body .contenedor-todo .container {
+    display: none;
+  }
+  body .contenedor-todo .sobre-caja {
+    display: none;
+  }
+  body .contenedor-todo .caja-texto-img {
+    display: none;
+  }
+  body .contenedor-todo .comun {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
